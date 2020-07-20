@@ -5,6 +5,10 @@
   "repository": "git@github.com:mrcsmotta1/api_node_docker_compose.git",
   "author": "Marcos Motta <mrcsmotta1@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon -- -r esm -r dotenv/config index.js",
+    "start": "pm2 start index.js --watch --no-daemon --node-args=\"-r esm\""
+  },
   "devDependencies": {
     "dotenv": "^8.2.0",
     "nodemon": "^2.0.4"
