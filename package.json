@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "esm": "^3.2.25",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "mongoose": "^5.9.25",
     "pm2": "^4.4.0"
   }
